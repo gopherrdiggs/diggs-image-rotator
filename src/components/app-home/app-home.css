@@ -7,3 +7,29 @@
   background-repeat: no-repeat;
   background-color: rgb(20, 20, 20);
 }
+
+#orientation {
+  position: absolute;
+  border: 1px solid white;
+  bottom: 20px;
+  left: 20px;
+  box-shadow: 1px 1px 1px gray;
+}
+
+#photoInfo {
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  color: white;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.portrait {
+  width: 20px;
+  height: 30px;
+}
+
+.landscape {
+  width: 30px;
+  height: 20px;
+}
