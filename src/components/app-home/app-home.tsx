@@ -28,9 +28,10 @@ export class AppHome {
 
     if (getPhotoData.ok) {
       let jsonData = await getPhotoData.json();
-      this.currentImgUrl = jsonData.photos[0].src.original;
+      this.currentImgUrl = jsonData.photos[0].src.landscape;
       console.log('this.currentImgUrl', this.currentImgUrl);
       this.photographerName = jsonData.photos[0].photographer;
+      this.homeElem.offsetWidth
       this.homeElem.style.setProperty('background-image', `url('${this.currentImgUrl}')`);
     }
   }
