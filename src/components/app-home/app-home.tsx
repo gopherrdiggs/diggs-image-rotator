@@ -30,7 +30,7 @@ export class AppHome {
     let pageNum = Math.floor((Math.random() * 1000) + 1);
 
     let getPhotoData = await fetch(
-      `https://api.pexels.com/v1/search?query=nature%20wallpaper%20-people&per_page=1&page=${pageNum}`, {
+      `https://api.pexels.com/v1/search?query=HD%20nature%20wallpaper%20-people%20-person&per_page=1&page=${pageNum}`, {
         method: 'GET',
         headers: {
           'Authorization': '563492ad6f91700001000001742f8c7015ce4bdbb2d419744dd8d9b7'
