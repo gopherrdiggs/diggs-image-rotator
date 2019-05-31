@@ -72,7 +72,7 @@ export class AppHome {
              onClick={()=>this.handleOrientationClick()}>
         </div>
         <div id='photoInfo'>
-          {this.photographerName} via Pexels
+          {this.photographerName} via Pexels.
         </div>
       </div>
     );

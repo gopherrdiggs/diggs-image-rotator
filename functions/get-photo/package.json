@@ -1,0 +1,11 @@
+{
+  "name": "get-photo",
+  "version": "1.0.0",
+  "description": "Simple API to get a random photo",
+  "keywords": [],
+  "author": "Geoffrey Rodgers",
+  "license": "None",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
